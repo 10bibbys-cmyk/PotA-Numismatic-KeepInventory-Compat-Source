@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pota_numismatic_keepinventory_compat",
+  "version": "1.0.2.1",
+  "name": "PotA - Numismatic KeepInventory Compat",
+  "description": "Restores Numismatic Overhaul's coin death penalty on true player deaths when keepInventory is enabled.",
+  "authors": [
+    "Path of the Ascended"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.pota.numismaticcompat.PotaNumismaticKeepInventoryCompat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "numismatic-overhaul": ">=0.2.18"
+  }
+}
